@@ -1,1 +1,134 @@
 
+*{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+header{
+    background-color: #2f1278;
+}
+.nav-item{
+    margin-right: 60px;
+}
+.rec{
+    width: 100%;
+    height: 40px;
+    background-color: #f3e8c2;
+}
+h3{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    color: black;
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+}
+#voiture, #lit, #montre, #iphone{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 10px;
+}
+.col-md-3{
+}
+#voiture{
+    background-image: url("img/voiture.jpg");
+}
+#lit{
+    background-image: url("img/lit.jpg");
+}
+#montre{
+    background-image: url("img/montre.jpg");
+}
+#iphone{
+    background-image: url("img/iphone.png");
+}
+#row1{
+    margin-bottom: 80px;
+}
+#row2{
+    margin-bottom: 20px;
+}
+.row3{
+    margin-bottom: 100px;
+}
+.motif1{
+    font-size: 1em;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+}
+.motif2{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+.motif3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.motif4{
+    color: orange;
+    font-weight: bold;
+}
+.bg-gray{
+    background-color: rgb(221, 221, 221);
+}
+.text-position{
+    position: absolute;
+    bottom: 0px;
+}
+#main-class li{
+    margin-bottom: 0.5rem;
+}
+#main-class div.col-md-3{
+    margin-top: 20px;
+}
+.first-square{
+    margin-top: 4rem;
+    height: 50px;
+    width: 100%;
+    background-color: #1d62f7;
+}
+.second-square{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(3, 3, 122);
+}
+a:hover, span:hover{
+    text-decoration: none;
+    opacity: .7;
+}
+@media (min-width: 992px) and (max-width: 1003px){
+    .motif2{
+        font-size: .9em;
+    }
+}
+@media (min-width: 411px) and (max-width: 575px){
+    
+    span.title{
+        font-size: .7em;
+    }
+}
+@media (max-width: 410){
+    h3{
+        font-size: 1em;
+    }
+    span.title{
+        font-size: 0.5;
+    }
+}
