@@ -39,16 +39,16 @@ h3{
 .col-md-3{
 }
 #voiture{
-    background-image: url("img/voiture.jpg");
+    background-image: url("voiture.jpg");
 }
 #lit{
-    background-image: url("img/lit.jpg");
+    background-image: url("lit.jpg");
 }
 #montre{
-    background-image: url("img/montre.jpg");
+    background-image: url("montre.jpg");
 }
 #iphone{
-    background-image: url("img/iphone.png");
+    background-image: url("iphone.png");
 }
 #row1{
     margin-bottom: 80px;
